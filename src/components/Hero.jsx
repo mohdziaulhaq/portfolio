@@ -25,10 +25,11 @@ const Hero = () => {
             I am a Java Full Stack Developer <br className='sm:block hidden' />
           <br />
             <br className='sm:block hidden' />
-           With over 3+ years of 
+           I have over 3 years of 
            experience building scalable enterprise solutions. I specialize in full-stack
             development with <span className='text-[#915EFF]'>Spring Boot </span>
-             and have strong expertise in <span className='text-[#915EFF]'>Microservices, React, Kafka, Docker, Kubernetes and AWS </span>to deliver modern, cloud-ready applications</p>
+             and have strong expertise in <span className='text-[#915EFF]'>Microservices, React, Kafka, Docker, Kubernetes and AWS </span>
+             to deliver modern, cloud-ready applications</p>
 
           <div className="flex gap-6 mt-6 items-center">
             <a
