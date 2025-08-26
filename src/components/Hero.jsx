@@ -24,7 +24,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#BB86FC]'>Zia</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I build  <span className='text-[#BB86FC]'> robust and scalable systems</span><br className='sm:block hidden' />
+            I build  <span className='text-[#BB86FC]'> secure and scalable systems</span><br className='sm:block hidden' />
           <br />
             <br className='sm:block hidden' />
            I have over 3 years of 
