@@ -11,7 +11,7 @@ const Contact = () => {
         Please contact me directly at{" "}
         <a
           href="mailto:mohziaulhaq123@gmail.com"
-          className="text-[#915EFF] hover:underline"
+          className="text-[#BB86FC] hover:underline"
         >
           mohziaulhaq123@gmail.com
         </a>

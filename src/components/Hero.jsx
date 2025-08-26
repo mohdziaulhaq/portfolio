@@ -12,23 +12,25 @@ const Hero = () => {
       >
         {/* Left violet line & dot */}
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-5 h-5 rounded-full bg-[#BB86FC]' />
+          {/* <div className='w-1 sm:h-80 h-40 violet-gradient' /> */}
+          <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-[#BB86FC] to-[#6200EE]" />
+
         </div>
 
         {/* Intro */}
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Zia</span>
+            Hi, I'm <span className='text-[#BB86FC]'>Zia</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a Java Full Stack Developer <br className='sm:block hidden' />
+            I build  <span className='text-[#BB86FC]'> robust and scalable systems</span><br className='sm:block hidden' />
           <br />
             <br className='sm:block hidden' />
            I have over 3 years of 
            experience building scalable enterprise solutions. I specialize in full-stack
-            development with <span className='text-[#915EFF]'>Spring Boot </span>
-             and have strong expertise in <span className='text-[#915EFF]'>Microservices, React, Kafka, Docker, Kubernetes and AWS </span>
+            development with <span className='text-[#BB86FC]'>Spring Boot </span>
+             and have strong expertise in <span className='text-[#BB86FC]'>Microservices, React, Kafka, Docker, Kubernetes and AWS </span>
              to deliver modern, cloud-ready applications</p>
 
           <div className="flex gap-6 mt-6 items-center">
@@ -53,8 +55,8 @@ const Hero = () => {
             <a
               href="/Resume.pdf" // place resume in public folder
               download
-              className="px-4 py-2 rounded-lg bg-[#915EFF] text-white font-semibold hover:bg-white 
-              hover:text-[#915EFF] transition text-sm "
+              className="px-4 py-2 rounded-lg bg-[#BB86FC] text-white font-semibold hover:bg-white 
+              hover:text-[#BB86FC] transition text-sm "
             >
               Download Resume
             </a>
