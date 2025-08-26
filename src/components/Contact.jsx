@@ -4,7 +4,7 @@ import { SectionWrapper } from "../hoc";
 
 const Contact = () => {
   return (
-    <footer className="w-full bg-black-100 py-8 text-center text-white">
+    <footer className="w-full py-8 text-center text-white">
       <h3 className="text-xl font-bold mb-2">Contact Me</h3>
 
       <p className="text-gray-300">
@@ -21,7 +21,7 @@ const Contact = () => {
         Or call me at{" "}
         <a
           href="tel:+19132783560"
-          className="text-[#915EFF] hover:underline"
+          className="text-[#BB86FC] hover:underline"
         >
           +1 (913) 278 3560
         </a>
